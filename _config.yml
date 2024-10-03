@@ -53,5 +53,4 @@ exclude:
   - ".gitignore"
   - ".jekyll-cache"
   - CNAME
-  - icomoon-selection.json
   - README.md

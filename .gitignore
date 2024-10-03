@@ -1,8 +1,5 @@
 ## from /jekyll/docs/
-_site/
 .idea/
-*.swp
-pkg/
 test/
 
 ## from /jekyll/
@@ -30,7 +27,5 @@ Gemfile.lock
 bbin/
 bin/
 coverage
-gh-pages/
 pkg/
-test/dest
 tmp/*
