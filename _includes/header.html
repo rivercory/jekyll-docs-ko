@@ -11,15 +11,16 @@
     <nav class="main-nav hide-on-mobiles">
       {% include primary-nav-items.html -%}
     </nav>
-<!--
+    <!--
     <div class="search hide-on-mobiles">
       {% include search/input.html -%}
     </div>
 -->
     <div class="meta hide-on-mobiles">
-    {% assign commit = site.data.ko.origin-commits[0] %}
+      {% assign commit = site.data.ko.origin-commits[0] %}
       <ul>
-        <li><a href="{{ site.repository-ko }}">{{ commit.date | date: "%y-%m-%d" }} 기준 번역</a><li>
+        <li><a href="{{ site.repository-ko }}">{{ commit.date | date: "%y-%m-%d" }} 기준 번역</a>
+        <li>
       </ul>
     </div>
     <div class="meta hide-on-mobiles">
