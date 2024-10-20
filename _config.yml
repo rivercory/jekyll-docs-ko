@@ -54,5 +54,4 @@ strict_front_matter: true
 exclude:
   - ".gitignore"
   - ".jekyll-cache"
-  - CNAME
   - README.md
